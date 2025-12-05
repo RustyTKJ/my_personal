@@ -713,6 +713,13 @@ section,
   margin: 0;
   font-size: 64px;
   font-weight: 700;
+  
+  color: white; /* Ubah warna teks agar kontras */
+  text-shadow:
+    -1px -1px 0 #5f0e00, /* Bayangan hijau gelap ke kiri-atas */
+     1px  1px 0 #ff0d00, /* Bayangan hijau terang ke kanan-bawah */
+     0 0 10px rgba(0, 0, 0, 0.7); /* Bayangan kabur hitam di tengah */
+
 }
 
 .hero p {
